@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{499fd22d-a168-48d1-b5ca-5b96a047c685}">
+		<property name="assetPath">
+			<value>player/Footsteps/Stone/player_jump_stone_landing_05.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.58674999999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a358dacf-c92d-4d33-8fd3-0cd401d6f776}</destination>
+		</relationship>
+	</object>
+</objects>
