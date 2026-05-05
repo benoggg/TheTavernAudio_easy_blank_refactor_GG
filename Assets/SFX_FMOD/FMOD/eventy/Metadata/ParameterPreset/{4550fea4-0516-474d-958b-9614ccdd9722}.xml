@@ -24,7 +24,10 @@
 			<value>Stairs</value>
 		</property>
 		<property name="initialValue">
-			<value>0</value>
+			<value>1</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
 		</property>
 	</object>
 </objects>
