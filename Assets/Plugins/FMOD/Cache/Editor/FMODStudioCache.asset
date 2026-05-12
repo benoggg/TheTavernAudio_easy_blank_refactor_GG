@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: Assets/SFX_FMOD/FMOD/eventy/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639136068448390440
+  lastModified: 639142098302581532
   FileSizes:
   - Name: Desktop
-    Value: 6881888
+    Value: 6882240
   Exists: 1
 --- !u!114 &-6332268882972570273
 MonoBehaviour:
@@ -107,7 +107,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 8033031020395252879}
   cacheVersion: 131859
-  cacheTime: 639136068448416173
+  cacheTime: 639142098302596566
   SerializableEventsDict:
   - key: event:/Jumping
     index: 0
@@ -388,7 +388,7 @@ MonoBehaviour:
   Path: Assets/SFX_FMOD/FMOD/eventy/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639136068448416173
+  lastModified: 639142098302596566
   FileSizes:
   - Name: Desktop
     Value: 1430
