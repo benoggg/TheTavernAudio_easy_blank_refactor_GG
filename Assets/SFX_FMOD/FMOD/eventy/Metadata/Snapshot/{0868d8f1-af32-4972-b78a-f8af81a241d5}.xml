@@ -77,11 +77,17 @@
 		<property name="initialValue">
 			<value>-80</value>
 		</property>
+		<property name="attackTime">
+			<value>480</value>
+		</property>
 		<property name="holdTime">
 			<value>0</value>
 		</property>
 		<property name="decayTime">
 			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>520</value>
 		</property>
 		<property name="finalValue">
 			<value>-80</value>
@@ -90,6 +96,9 @@
 	<object class="ADSRModulator" id="{cdc15977-5c23-45b0-80f7-571d7afca7bd}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>value</value>
+		</property>
+		<property name="attackTime">
+			<value>500</value>
 		</property>
 		<property name="peakValue">
 			<value>-15</value>
@@ -102,6 +111,9 @@
 		</property>
 		<property name="sustainValue">
 			<value>-15</value>
+		</property>
+		<property name="releaseTime">
+			<value>500</value>
 		</property>
 	</object>
 </objects>
