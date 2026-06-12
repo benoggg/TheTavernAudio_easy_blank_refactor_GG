@@ -60,7 +60,7 @@ public class Footsteps : MonoBehaviour
         if (isMoving && IsGrounded())
         {
             // Ustawia interwał na podstawie tego, czy gracz biegnie.
-            float footstepInterval = isRunning ? 0.25f : 0.5f;
+            float footstepInterval = isRunning ? 0.25f : 0.4f;
 
             if (Time.time - lastFootstepTime > footstepInterval)
             {
@@ -157,8 +157,8 @@ public class Footsteps : MonoBehaviour
                 surfaceParameter = "Stairs";
                 break;
 
-            case "Bed":
-                surfaceParameter = "Bed";
+            case "Chandelier":
+                surfaceParameter = "Chandelier";
                 break;
 
 
@@ -173,6 +173,7 @@ public class Footsteps : MonoBehaviour
             soundInstance.setParameterByNameWithLabel("Footsteps", surfaceParameter);
             soundInstance.setParameterByNameWithLabel("Jumping", surfaceParameter);
             soundInstance.setParameterByNameWithLabel("Landing", surfaceParameter);
+            soundInstance.setParameterByNameWithLabel("Chandelier", surfaceParameter);
             soundInstance.start();
             soundInstance.release();
         }

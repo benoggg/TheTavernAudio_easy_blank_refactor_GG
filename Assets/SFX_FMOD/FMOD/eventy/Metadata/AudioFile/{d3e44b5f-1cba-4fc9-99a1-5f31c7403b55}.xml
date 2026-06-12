@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{d3e44b5f-1cba-4fc9-99a1-5f31c7403b55}">
+		<property name="assetPath">
+			<value>player/Footsteps/Chandelier/chandelier_landing_06.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.0548979591836736</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a358dacf-c92d-4d33-8fd3-0cd401d6f776}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: Assets/SFX_FMOD/FMOD/eventy/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639154199638281197
+  lastModified: 639168550184506305
   FileSizes:
   - Name: Desktop
-    Value: 6870496
+    Value: 7136096
   Exists: 1
 --- !u!114 &-6332268882972570273
 MonoBehaviour:
@@ -74,7 +74,7 @@ MonoBehaviour:
   - {fileID: 84684591662971316}
   MinDistance: 1
   MaxDistance: 20
-  Length: 1422
+  Length: 1500
 --- !u!114 &-3478603161329172017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,13 +126,14 @@ MonoBehaviour:
   - {fileID: -3778283986965436015}
   - {fileID: 5126029163209057140}
   - {fileID: 6719337495476052833}
+  - {fileID: 415117570607280526}
   EditorParameters: []
   MasterBanks:
   - {fileID: -8612337769758294254}
   StringsBanks:
   - {fileID: 8033031020395252879}
   cacheVersion: 131859
-  cacheTime: 639154199638291484
+  cacheTime: 639168550184521338
   SerializableEventsDict:
   - key: event:/Jumping
     index: 0
@@ -152,6 +153,8 @@ MonoBehaviour:
     index: 7
   - key: event:/Doors
     index: 8
+  - key: event:/Mouse
+    index: 9
 --- !u!114 &84684591662971316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,7 +170,7 @@ MonoBehaviour:
   Name: Landing
   StudioPath: 
   Min: 0
-  Max: 2
+  Max: 3
   Default: 0
   ID:
     data1: 2413306128
@@ -178,7 +181,35 @@ MonoBehaviour:
   - Wood
   - Stone
   - Stairs
+  - Chandelier
   Exists: 1
+--- !u!114 &415117570607280526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Mouse
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Mouse
+  Guid:
+    Data1: -1070885502
+    Data2: 1288730499
+    Data3: 294071428
+    Data4: -1307671872
+  Banks:
+  - {fileID: -8612337769758294254}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3000
 --- !u!114 &3092492235671632735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -385,10 +416,10 @@ MonoBehaviour:
   Path: Assets/SFX_FMOD/FMOD/eventy/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639154199638291484
+  lastModified: 639168550184521338
   FileSizes:
   - Name: Desktop
-    Value: 1626
+    Value: 1672
   Exists: 1
 --- !u!114 &8290875012459175642
 MonoBehaviour:

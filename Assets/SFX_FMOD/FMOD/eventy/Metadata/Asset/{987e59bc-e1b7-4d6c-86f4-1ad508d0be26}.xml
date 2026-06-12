@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{987e59bc-e1b7-4d6c-86f4-1ad508d0be26}">
+		<property name="assetPath">
+			<value>player/Footsteps/Chandelier/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a358dacf-c92d-4d33-8fd3-0cd401d6f776}</destination>
+		</relationship>
+	</object>
+</objects>
